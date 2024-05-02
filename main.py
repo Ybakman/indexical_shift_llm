@@ -362,11 +362,11 @@ if __name__ == "__main__":
     '''
 
     output = evaluate_model(model, tokenizer, dataset, problem_description,icl_example=icl_example, option_order='random', eval_method = 'permutation')
-
+    print(f'accuracy: {output["accuracy"]}')
     dict_list = output['predictions']
 
     dict_list.sort(key=lambda x: x['idx'])
-    csv_file = f'results/{args.model_name}_{args.num_examples}_{args.option_order}_{args.eval_method}_{args.seed}_output.csv'
+    csv_file = f'results/{args.model_name.replace("/","_")}_{args.num_examples}_{args.option_order}_{args.eval_method}_{args.seed}_output.csv'
 
     with open(csv_file, mode='w', newline='') as file:
         # Creating a writer object specifying the field names
