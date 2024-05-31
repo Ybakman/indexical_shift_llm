@@ -1,8 +1,5 @@
 import argparse
 import os
-os.environ["TRANSFORMERS_CACHE"] = "/home/yavuz/yavuz/.cache/huggingface/hub"
-os.environ["OPENAI_API_KEY"] = "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"
-os.environ["CUDA_VISIBLE_DEVICES"] = "0,2,3,4,5"
 import pathlib
 import pickle
 from lib2to3.pgen2.tokenize import tokenize
