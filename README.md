@@ -1,4 +1,4 @@
-# Do LLMs Recognize Me, When I is Not Me: Assessment of LLMs' Understanding of Turkish Indexical Pronouns in Indexical Shift Contexts
+# Do LLMs Recognize Me, When I is Not Me: Assessment of LLMs' Understanding of Turkish Indexical Pronouns in Indexical Shift Contexts - ACL 2024 SIGTURK Workshop
 
 [Read the paper](https://aclanthology.org/2024.sigturk-1.5/)
 
@@ -71,14 +71,3 @@ If you use this code or data in your research, please cite the paper:
 }
 ```
 
-## Contact
-
-For questions or feedback, please contact:
-
-- **Metehan Oğuz**
-- **Yusuf Ciftci**
-- **Yavuz Faruk Bakman**
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
